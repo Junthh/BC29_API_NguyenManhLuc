@@ -1,0 +1,7 @@
+@mixin colorButton($w, $h, $color, $bg, $bd) {
+    width: $w;
+    height: $h;
+    color: $color;
+    background-color: $bg;
+    border-radius: $bd;
+}

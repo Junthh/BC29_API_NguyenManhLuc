@@ -1,0 +1,36 @@
+#wrapper {
+    position: relative;
+
+    .wrapper__bgTop {
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+
+    .wrapper__conntent{
+        margin-top: 17rem;
+        h3{
+            @include styleText($color-dark-1, $fs-2, $fw-2);
+        }
+        h1{
+            @include styleText($color-dark-2, $fs-9, $fw-3)
+        }
+    }
+
+    .wapper__thumb{
+        img{
+            width: 100%;
+            margin-top: 8rem;
+        }
+    }
+
+    .wrapper__bgBt{
+        position: absolute;
+            top: 25rem;
+            left: 0;
+            width: 100%;
+    }
+}

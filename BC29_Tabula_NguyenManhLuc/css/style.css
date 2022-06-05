@@ -1,0 +1,369 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 5px 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 2rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #656774;
+}
+
+header .navbar-nav button {
+  width: 10rem;
+  height: 2.5rem;
+  color: #f5f9fe;
+  background-color: #656774;
+  border-radius: 1.5rem;
+  border: none;
+  margin-right: 1.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header .navbar-nav button:hover {
+  background-color: #f5f9fe;
+  color: #121212;
+  border: 1.5px solid #656774;
+}
+
+header .navbar-nav .socials i {
+  margin: 12px 10px 0 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+header .navbar-nav .socials i:hover {
+  color: #656774;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#wrapper .wrapper__bgTop img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#wrapper .wrapper__conntent {
+  margin-top: 17rem;
+}
+
+#wrapper .wrapper__conntent h3 {
+  color: #656774;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#wrapper .wrapper__conntent h1 {
+  color: #121212;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#wrapper .wapper__thumb img {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+#wrapper .wrapper__bgBt {
+  position: absolute;
+  top: 25rem;
+  left: 0;
+  width: 100%;
+}
+
+#teacher {
+  position: relative;
+}
+
+#teacher .row {
+  margin-top: 2rem;
+}
+
+#teacher .row .col-xl-3 {
+  z-index: 10;
+  margin-bottom: 3rem;
+}
+
+#teacher .row .col-xl-3 .card {
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#teacher .row .col-xl-3 .card .card-body {
+  text-align: center;
+}
+
+#teacher .row .col-xl-3 .card .card-body .card-name {
+  color: #656774;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#teacher .row .col-xl-3 .card .card-body .card-title {
+  color: #121212;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Montserrat",Arial,Helvetica,sans-serif;
+}
+
+#teacher .row .col-xl-3 .card .card-body .card-text {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat",Arial,Helvetica,sans-serif;
+}
+
+#teacher .row .col-xl-3 .card:hover {
+  -webkit-box-shadow: 5px 10px 5px 0 #21252991;
+          box-shadow: 5px 10px 5px 0 #21252991;
+}
+
+#teacher .teacher__bg {
+  background-color: #c9d8f4;
+  position: absolute;
+  top: 6.5rem;
+  left: 0;
+}
+
+#course {
+  position: relative;
+}
+
+#course .col-xl-7 {
+  z-index: 100;
+}
+
+#course .col-xl-7 .course__thumb img {
+  width: 70%;
+  margin-top: 7rem;
+}
+
+#course .col-xl-5 {
+  background-color: #fff;
+  z-index: 100;
+  border-radius: 0.5rem;
+  margin-top: 7rem;
+}
+
+#course .col-xl-5 .course__login {
+  position: relative;
+}
+
+#course .col-xl-5 .course__login h2 {
+  color: #121212;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#course .col-xl-5 .course__login .form-1 {
+  width: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+#course .col-xl-5 .course__login .form-1 input {
+  border-radius: 2rem;
+  margin: 2rem 1rem 1rem 0;
+  padding-left: 4rem;
+}
+
+#course .col-xl-5 .course__login .form-1 .social__user {
+  position: absolute;
+  left: 3rem;
+  top: 6rem;
+  color: #495057;
+}
+
+#course .col-xl-5 .course__login .form-1 .social__email {
+  position: absolute;
+  left: 15rem;
+  top: 6rem;
+  color: #495057;
+}
+
+#course .col-xl-5 .course__login .form-2 {
+  width: 25rem;
+  margin-left: 1rem;
+}
+
+#course .col-xl-5 .course__login .form-2 input {
+  border-radius: 2rem;
+  padding-left: 4rem;
+}
+
+#course .col-xl-5 .course__login .form-2 .social__edu {
+  position: absolute;
+  left: 3rem;
+  top: 9.3rem;
+  color: #495057;
+}
+
+#course .col-xl-5 .course__login .form-3 {
+  margin-left: 1rem;
+}
+
+#course .col-xl-5 .course__login .form-3 textarea {
+  border-radius: 1rem;
+  border: 1px solid #d6dbe0;
+  padding-left: 4rem;
+}
+
+#course .col-xl-5 .course__login .form-3 .social__message {
+  position: absolute;
+  left: 3rem;
+  top: 12.5rem;
+  color: #495057;
+}
+
+#course .course__bg img {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#course button {
+  width: 10rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #656774;
+  border-radius: 1.5rem;
+  border: none;
+  text-align: center;
+  margin-left: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#course button:hover {
+  width: 10rem;
+  height: 3rem;
+  color: #656774;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  border: 1px solid #656774;
+}
+
+footer {
+  position: relative;
+}
+
+footer .col-xl-3 {
+  z-index: 10;
+  margin-top: 10rem;
+}
+
+footer .col-xl-3 h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+footer .col-xl-3 ul {
+  list-style: none;
+  color: #fff;
+}
+
+footer .col-xl-3 li {
+  margin-bottom: 10px;
+}
+
+footer .col-xl-3 li span {
+  margin-left: 10px;
+}
+
+footer .col-xl-3 .ft-socials i {
+  margin-right: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+footer .col-xl-3 .ft-socials i:hover {
+  color: #121212;
+}
+
+footer .col-xl-3 .quick-link li::after, footer .col-xl-3 .about li::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #4950573b;
+  display: block;
+  margin-top: 5px;
+}
+
+footer .col-xl-3 .news .y-email {
+  display: block;
+  width: 15rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #aa017e;
+  border-radius: 2rem;
+  border: 1px solid #4950573b;
+  margin-bottom: 1rem;
+}
+
+footer .col-xl-3 .news .sub {
+  display: block;
+  width: 15rem;
+  height: 3rem;
+  color: #656774;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 1px solid #4950573b;
+  font-weight: 600;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .col-xl-3 .news .sub:hover {
+  width: 15rem;
+  height: 3rem;
+  color: #353536;
+  background-color: #aa017e;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+footer .ft-bg {
+  position: absolute;
+  top: 4.8rem;
+  left: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

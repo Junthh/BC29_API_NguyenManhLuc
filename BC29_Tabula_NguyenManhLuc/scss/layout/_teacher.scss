@@ -1,0 +1,48 @@
+#teacher {
+    position: relative;
+
+    .row{
+        margin-top: 2rem;
+
+        .col-xl-3{
+            z-index: 10;
+            margin-bottom: 3rem;
+
+            .card{
+                border-radius: $bd-1;
+                transition: all 0.4s;
+
+                .card-body{
+                    text-align: center;
+                    
+                    .card-name{
+                        @include styleText($color-dark-1, $fs-10, $fw-2);
+                    }
+
+                    .card-title{
+                        @include styleText($color-dark-2, $fs-5, $fw-2);
+                        font-family: "Montserrat",Arial,Helvetica,sans-serif;
+                    }
+
+                    .card-text{
+                        @include styleText($color-dark-2, $fs-1, $fw-1);
+                        font-family: "Montserrat",Arial,Helvetica,sans-serif;
+                    }
+                }
+
+                &:hover{
+                    box-shadow: 5px 10px 5px 0 #21252991;
+                }
+            }
+            
+        }
+        
+    }
+
+    .teacher__bg {
+        background-color: $color-blue-3;
+        position: absolute;
+        top: 6.5rem;
+        left: 0;
+    }
+}
